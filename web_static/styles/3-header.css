@@ -9,5 +9,6 @@ header {
     background-image: url('../images/logo.png');
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 20px;
+    background-position-x: left 20px;
+    background-position-y: center;
 }
