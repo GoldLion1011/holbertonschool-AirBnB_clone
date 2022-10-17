@@ -24,34 +24,88 @@
     border: 1px solid #ff5a5f;
     border-radius: 4px;
     text-align: center;
+    position: relative;
+    z-index: -1;
 }
 
 .price_by_night {
     color: #ff5a5f;
     border: 4px solid #ff5a5f;
-    border-radius: 60px;
+    border-radius: 50%;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    float: right;
     text-align: center;
-    margin-top: -80px;
-    line-height: 60px;
+    line-height: 50px;
     white-space: nowrap;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.max_guest {
-    background-image: url("../images/max_guest.png");
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 10px;
 }
 
-.number_rooms {
-    background-image: url("../images/number_rooms.png");
+.information div {
+    position: relative;
+    margin-top: 3px;
+    width: 100px;
 }
 
-.number_bathrooms {
-    background-image: url("../images/number_bathrooms.png");
+/*.max_guest, .number_bathrooms, .number_rooms {
+    width: 100px;
+}*/
+
+.icon_group {
+    background: url("../images/icon_group.png") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
 }
 
-.user {
-    margin: 20px 0px 5px 0px;
+.icon_bed {
+    background: url("../images/icon_bed.png") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.icon_bath {
+    background: url("../images/icon_bath.png") no-repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.user p {
+    text-align: left;
+    justify-self: flex-start;
+    font-size: 16px;
+}
+
+.description p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.max_guest > p, .number_rooms > p, .number_bathrooms > p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
 }
