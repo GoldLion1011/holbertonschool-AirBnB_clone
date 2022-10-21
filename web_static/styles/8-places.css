@@ -60,15 +60,15 @@
 }
 
 .max_guest {
-    background-image: url("..images/max_guest.png");
+    background-image: url("../images/max_guest.png");
 }
 
 .number_rooms {
-    background-image: url("..images/room_rooms.png");
+    background-image: url("../images/room_rooms.png");
 }
 
 .number_bathrooms {
-    background-image: url("..images/room_bathrooms.png");
+    background-image: url("../images/room_bathrooms.png");
 }
 
 .user {
